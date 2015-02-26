@@ -26,7 +26,7 @@ import java.io.InputStreamReader;
 public class MainActivity extends ActionBarActivity {
 
     public String RootURL = "https://plastic.atlassian.net/rest/api/2";
-    String credentials = "peter:arigatou123";
+    String credentials = "userid:password";
     String base64EncodedCredentials = Base64.encodeToString(credentials.getBytes(), Base64.NO_WRAP);
 
     @Override
